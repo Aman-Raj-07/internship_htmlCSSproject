@@ -1,0 +1,189 @@
+*{
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100; 
+}
+table,td,tr{
+    text-align: center;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;   
+}
+#cell{
+    border-left: 1px solid rgba(0,0,0,0.1);
+    border-right: 1px solid rgba(0,0,0,0.1);
+    color: black;
+}
+a:hover{
+    color: hotpink;
+}
+a:active{
+    color: red;
+    scale: 1.2;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+    border-bottom: none;
+    align-items: end;
+    color: black;
+    margin-top: 1vh;
+}
+.under{
+    text-decoration: none;
+    color: black;
+}
+.secondrow{
+    border-bottom: none;
+}
+#bottomb{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+#secrow{
+    height: 8vh;
+}
+#icons div{
+    display: inline-block;
+    margin: 0.5vw;
+}
+#backgro{
+    height: 84vh;
+    width: 100%;
+    background-image: url("banner-image-bg.jpg");
+    position: relative;
+}
+#firsthead{
+    height: 65vh;
+    width: 30%;
+    position: absolute;
+    top: 10vh;
+    right: 15%;
+}
+#firsthead img{
+    height: 65vh;
+    width: 100%;
+}
+#quote{
+    height: 60vh;
+    width: 50vh;
+    position: absolute;
+    top: 30vh;
+    left: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#uni{
+    color: black;
+}
+#btm{
+    background-color: rgba(173, 19, 19,0.6);
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    height: 6vh;
+    width: 175px;
+}
+#btm:hover{
+    background-color: red;
+    scale: 1.1;
+}
+#navbar a:hover{
+    color: hotpink;
+}              
+#navbar a:focus{
+    color:red;
+}    
+#shop{
+    background-color: blue;
+    color: azure;
+    border-radius: 25px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    height: 48px;
+    width: 134px;
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+footer > div > p > a{
+    color: black;
+    text-decoration: none;
+}
+footer > div{
+    width: 18%;
+}
+#f{
+    display: flex;
+    gap: 8%;
+}
+.footertext{
+    position: relative;
+    top: 25%;
+    margin-bottom: 150px;
+}
+#quickLinks{
+    left: 2%;
+}
+#last{
+    width: 100%;
+    position: relative;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    font-size: 12px;
+    height: 30px;
+    padding: 9px;
+    padding-top: 15px;
+    padding-bottom: 1px;
+}
+#ship{
+    position: absolute;
+    left: 28vh;
+}
+#payment{
+    position: absolute;
+    left: 50vh;
+}
+#copyright{
+    position: absolute;
+    right: 30vh;
+}
+.bi{
+    color: rgb(80, 78, 76);
+}
+.bi:hover{
+    color: hotpink;
+}
+.bi:active{
+    color: red;
+    scale: 1.2;
+}
+#colour{
+    color: black;
+}
+#shop:hover{
+    background-color: hotpink;
+}
+#shop > .bi{
+    color: aliceblue;
+}
+#shop:active{
+    background-color: red;
+}
+#contact > p > a{
+    text-decoration: underline;
+}
+#icons>div:hover{
+    cursor: pointer;
+}
+img:hover{
+    scale: 1.01;
+}
